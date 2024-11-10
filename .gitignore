@@ -28,6 +28,7 @@ db.sqlite3  # If you're using SQLite database
 /static/
 /media/
 insta2amazon/local
+sb1-cmau1u/node_modules
 
 # Ignore Django's temporary files and cache
 *.db
