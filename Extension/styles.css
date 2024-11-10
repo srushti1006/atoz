@@ -1,0 +1,76 @@
+* {
+    box-sizing: border-box; /* Include padding and border in element's total width and height */
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px; /* Padding added to the container */
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* Optional shadow for styling */
+    width: 100%;
+    overflow: hidden
+}
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    padding: 10px;
+    width: 400px; /* Increased width for popup */
+    overflow: hidden
+}
+#response-container {
+    margin-top: 15px;
+    width: 100%;
+    overflow: hidden;
+}
+#comments-container {
+    max-height: 150px; /* Limit the height for comments */
+    overflow-y: auto; /* Scroll only within this section if it overflows */
+}
+
+h1 {
+    font-size: 18px;
+    color: #333;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+.form-group {
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+label {
+    font-size: 14px;
+    color: #555;
+}
+
+input[type="text"] {
+    width: 100%; /* Ensure input takes full width of its container */
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-top: 5px;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #0073e6;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #005bb5;
+}
+
+.logo {
+    width: 100px; /* Adjust the size of the logo */
+    height: auto;
+    margin-bottom: 15px; /* Space between the logo and the heading */
+  }

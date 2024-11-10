@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Insta2Amazon</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <div class="form-group">
+      <label for="post-url">Social Media Post URL</label>
+      <input type="text" id="post-url" placeholder="Enter post URL" />
+    </div>
+
+    <button id="fetch-btn">Fetch Data</button>
+
+    <!-- Container to show the fetched data -->
+    <div id="response-container">
+      <div id="image-container"></div>
+      <div id="caption"></div>
+      <div id="video-container"></div>
+      <div id="comments-container"></div>
+      <div id="image-analysis-container"></div> <!-- Image Analysis Field -->
+    </div>
+  </div>
+  
+  <script src="popup.js"></script>
+</body>
+</html>
