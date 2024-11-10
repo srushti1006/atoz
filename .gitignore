@@ -1,0 +1,70 @@
+# Python (Django) related
+##########################
+# Ignore virtual environment directories
+venv/
+env/
+.venv/
+
+# Ignore Django specific files
+*.log
+*.pot
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+db.sqlite3  # If you're using SQLite database
+*.sqlite3    # If your database is SQLite
+*.bak        # Backup files
+*.swp        # Swap files
+
+# Ignore Django migration files (optional, if you want to ignore these from versioning)
+# /migrations/
+
+# Ignore .env or other sensitive files
+.env
+*.env
+
+# Ignore static and media files
+/static/
+/media/
+
+# Ignore Django's temporary files and cache
+*.db
+*.db-journal
+
+# Ignore coverage and testing related files
+.coverage
+nosetests.xml
+pytest.xml
+*.cover
+
+# Ignore files created by IDEs (VSCode, PyCharm, etc.)
+.idea/
+.vscode/
+*.iml
+
+# React related
+#######################
+# Node modules directory (installed dependencies)
+node_modules/
+
+# Build output from React (production)
+build/
+
+# React environment files
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Log files
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# MacOS Finder files (Optional, only if you're using MacOS)
+.DS_Store
+
+# React specific directories or files you might want to exclude (optional)
+# /public/ (if you want to ignore any content in the public directory)
+# /dist/ (if you're using a different build folder)
