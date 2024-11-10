@@ -27,6 +27,7 @@ db.sqlite3  # If you're using SQLite database
 # Ignore static and media files
 /static/
 /media/
+insta2amazon/local
 
 # Ignore Django's temporary files and cache
 *.db
